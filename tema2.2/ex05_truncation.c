@@ -9,6 +9,9 @@ int main(int argc, char const *argv[])
     short s = 149;
     char cs = (char) s;
 
+    unsigned short u1 = 518;
+    unsigned char cu1 = (unsigned char) u1;
+
     printf("u=%hu\t", u);
     show_bytes((byte_pointer) &u, sizeof(short));
     show_binary_from_hex((byte_pointer) &u, sizeof(short));
@@ -29,15 +32,15 @@ int main(int argc, char const *argv[])
     show_binary_from_hex((byte_pointer) &cs, sizeof(char));
     printf("\n");
 
-    /*printf("x=%hd\t", x);
-    show_bytes((byte_pointer) &x, sizeof(short));
-    show_binary_from_hex((byte_pointer) &x, sizeof(short));
+    printf("u1=%hu\t", u1);
+    show_bytes((byte_pointer) &u1, sizeof(short));
+    show_binary_from_hex((byte_pointer) &u1, sizeof(short));
     printf("\n");
     
-    printf("mx=%hu\t", ux);
-    show_bytes((byte_pointer) &ux, sizeof(short));
-    show_binary_from_hex((byte_pointer) &ux, sizeof(short));
-    printf("\n");*/
+    printf("cu1=%hu\t", cu1);
+    show_bytes((byte_pointer) &cu1, sizeof(char));
+    show_binary_from_hex((byte_pointer) &cu1, sizeof(char));
+    printf("\n");
 
     return 0;
 }

@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
     unsigned short uy = sx;     /* Mystery! */  
 
-    printf("x=%hd\t", sx);
+    printf("sx=%hd\t", sx);
     show_bytes((byte_pointer) &sx, sizeof(char));
     show_binary_from_hex((byte_pointer) &sx, sizeof(char));
     printf("\n");

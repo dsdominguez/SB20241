@@ -4,8 +4,6 @@ float sum_elements(float a[], unsigned length) {
     int i;
     float result = 0;
 
-    printf("(lenght=%hu)\t(lenght-1=%hu)\t(0 <= length-1)=%d\n", length, length-1, (0 <= length-1));
-
     for (i = 0; i <= length-1; i++)
         result += a[i];
 
@@ -26,3 +24,4 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+

@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     show_binary_from_hex((byte_pointer) &sx, sizeof(char));
     printf("\n");
     
-    printf("mx=%hu\t", usx);
+    printf("usx=%hu\t", usx);
     show_bytes((byte_pointer) &usx, sizeof(char));
     show_binary_from_hex((byte_pointer) &usx, sizeof(char));
     printf("\n");
