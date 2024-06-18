@@ -36,7 +36,8 @@ void test_show_bytes(int val) {
 }
 
 int main(int argc, char *argv[]){
-    int val = 12345;
+    //int val = 12345;
+    int val = 1234;
 
     test_show_bytes(val);
 
