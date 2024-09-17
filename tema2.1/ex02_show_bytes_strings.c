@@ -8,7 +8,7 @@ void show_bytes(byte_pointer start, size_t len) {
     //puts(start);
     size_t i;
     for (i = 0; i < len; i++)
-	printf(" %.2x", start[i]);    
+	    printf(" %.2x", start[i]);    
     printf("\n");
 }
 

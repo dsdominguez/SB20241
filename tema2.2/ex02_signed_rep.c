@@ -25,3 +25,5 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+//Adicionar um exercício na lista usando a versão deste código com char
+

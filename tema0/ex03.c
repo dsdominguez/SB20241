@@ -14,12 +14,12 @@ double fun(int i) {
 
 int main(int argc, char const *argv[]){
   
-  printf("%f\n", fun(0));
-  printf("%f\n", fun(1));
-  printf("%f\n", fun(2));
-  printf("%f\n", fun(3));
-  printf("%f\n", fun(4));
-  printf("%f\n", fun(6));
+  printf("%.12f\n", fun(0));
+  printf("%.12f\n", fun(1));
+  printf("%.12f\n", fun(2));
+  printf("%.12f\n", fun(3));
+  printf("%.12f\n", fun(4));
+  printf("%.12f\n", fun(6));
   
   return 0;
 }
