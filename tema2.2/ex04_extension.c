@@ -4,7 +4,7 @@
 int main(int argc, char const *argv[])
 {
     char sx = -107;
-    unsigned char usx = sx;
+    unsigned char usx = sx;//149
 
     short x = sx;
     unsigned short ux = usx; 
